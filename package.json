@@ -1,17 +1,17 @@
 {
   "name": "webfuse",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Webfuse JavaScript Provider",
   "main": "dist/webfuse.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/falk-werner/webfuse-js.git"
   },
-  "keywords": [],
+  "keywords": ["websockets", "libfuse", "fuse", "ws", "wss", "filesystem"],
   "author": "Falk Werner",
   "license": "MIT",
   "bugs": {
@@ -19,7 +19,12 @@
   },
   "homepage": "https://github.com/falk-werner/webfuse-js#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
+    "jsdom": "16.2.2",
+    "jsdom-global": "3.0.2",
+    "mocha": "^7.1.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
-  }
+  },
+  "dependencies": {}
 }

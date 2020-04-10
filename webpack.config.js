@@ -4,7 +4,9 @@ module.exports = {
     mode: 'production',
     entry: './src/index.js',
     output: {
-        filename: 'webufse.js',
+        filename: 'webfuse.js',
+        library: 'webfuse',
+        libraryTarget: 'umd',
         path: path.resolve(__dirname, './dist')
     }
 };
