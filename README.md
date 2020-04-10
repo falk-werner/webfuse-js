@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/falk-werner/webfuse-js.svg?branch=master)](https://travis-ci.org/falk-werner/webfuse-js)
+[![npm](https://img.shields.io/npm/v/webfuse.svg)](https://npmjs.com/package/webfuse)
 
 # webfuse-js
 Webfuse JavaScript Provider
